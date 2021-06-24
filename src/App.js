@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import Test from "./components/Test"
 import FilesUpload from "./components/FilesUpload";
+
+// voor uitleg: https://bezkoder.com/react-hooks-multiple-file-upload/
+//https://bezkoder.com/react-image-upload-preview/
+
+
+
 
 function App() {
     return (
@@ -15,7 +20,7 @@ function App() {
 
 
             <FilesUpload/>
-            <Test/>
+
 
         </div>
 
